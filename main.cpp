@@ -2,5 +2,5 @@
 
 int main()
 {
-std::count << "Hello world\n";
+std::cout << "Hello world\n";
 }
