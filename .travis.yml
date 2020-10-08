@@ -9,8 +9,11 @@ python: 3.6
 
 # Install the codecov pip dependency
 install:
-  - pip install python3
+  - pip install codecov
 
-# Run the unit test
 script:
-  - sayHello.py
+  - coverage run sayHello.py
+
+# Push the results back to codecov
+# after_success:
+#   - codecov
