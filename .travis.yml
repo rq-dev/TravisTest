@@ -12,7 +12,8 @@ install:
   - pip install codecov
 
 script:
-  - coverage run sayHello.py
+#   - coverage run sayHello.py
+ - run sayHello.py
 
 # Push the results back to codecov
 # after_success:
