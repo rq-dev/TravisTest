@@ -8,11 +8,12 @@ language: python
 python: 3.6
 
 # Install the codecov pip dependency
-install:
-  - pip install codecov
+# install:
+#   - pip install codecov
 
 script:
- - coverage run sayHello.py
+#  - coverage run sayHello.py
+  - python3 sayHello.py
 
 
 # Push the results back to codecov
